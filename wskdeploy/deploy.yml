@@ -1,0 +1,34 @@
+packages:
+  assignee_pkg:
+    name: assignee_pkg
+    actions:
+      assign:
+        function: src/assign/assign.go
+        web-export: true
+        inputs:
+          language:
+            type: string
+            description: main language of MRs project
+        outputs:
+          assignee:
+            type: string
+            description: assegnee for MR
+      notify:
+        function: src/notify/notify.go
+        inputs:
+          assignee:
+            type: string
+            description: assegnee for MR
+        outputs:
+          msg:
+            type: string
+            description: msg for human
+    sequences:
+      assign_mr_sequence:
+        actions: assign, notify
+    apis:
+      assign:
+        assign:
+          reviewer:
+            assign:
+              method: GET
