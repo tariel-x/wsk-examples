@@ -25,10 +25,11 @@ packages:
             description: msg for human
     sequences:
       assign_mr_sequence:
+        web: true
         actions: assign, notify
     apis:
       assign:
         assign:
           reviewer:
-            assign:
+            assign_mr_sequence:
               method: GET
