@@ -22,7 +22,7 @@ func Main(obj map[string]interface{}) map[string]interface{} {
 
 	candidates := make([]string, 0, len(humans))
 
-	if ok {
+	if !ok {
 		for human := range humans {
 			candidates = append(candidates, human)
 		}
