@@ -12,3 +12,4 @@ Test at local: `wsk -i namespace get`.
 2. [Hello world standalone binary](hello-standalone).
 3. [Deploy sequences with wskdeploy](wskdeploy)
 4. [Implement own action loop](actionloop)
+5. [Multiple files in main package](multifile)
