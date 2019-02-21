@@ -1,1 +1,3 @@
 github.com/tariel-x/wsk-examples v0.0.0-20190219154604-566ff32d67b6 h1:pvTWrWposj+7mxOl251I3QHKdlDfS3kjWaAE8w336OI=
+github.com/tariel-x/wsk-examples/vendoring/handler v0.0.0-20190221174455-216d03b7e292 h1:s1uMEbflAscnYiZ9ktPGN36suakZjmX60U6w/E3WkNA=
+github.com/tariel-x/wsk-examples/vendoring/handler v0.0.0-20190221174455-216d03b7e292/go.mod h1:yV564CHDLzygrYa8NRMi5uwAwAnyDaTYZfjM+bz67JE=
