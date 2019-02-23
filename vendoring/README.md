@@ -1,5 +1,7 @@
 # Vendoring
 
+Here is example of function which realises action loop and uses vendors.
+
 1. Get dependencies: `cd src && go mod vendor`.
 2. Create `exec` from `main.go`: `mv main.go exec`.
 3. Move dependencies to current folder: `mv vendor/* && rm -rf vendor`.
