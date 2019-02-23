@@ -16,5 +16,5 @@ func Handle(obj map[string]interface{}) map[string]interface{} {
 
 func detect(text string) string {
 	info := getlang.FromString(text)
-	return fmt.Sprintf("Language of %s is %s", text, info.LanguageName())
+	return fmt.Sprintf("Language of %q is %s", text, info.LanguageName())
 }
