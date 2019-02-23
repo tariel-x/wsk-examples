@@ -4,7 +4,7 @@ This is the collection of example golang functions for OpenWhisk.
 
 Before using, check that wsk is configured correctly:
 
-Run at host: `wsk property get --auth | cut -c13-` to get auth key key.
+Run at host: `wsk property get --auth | cut -c13-` to obtain auth key.
 
 At local: `wsk -i property set --apihost 0.0.0.0 --auth KEY --namespace guest`, where `KEY` is the result from the host.
 
