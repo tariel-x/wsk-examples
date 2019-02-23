@@ -14,3 +14,4 @@ Test at local: `wsk -i namespace get`.
 4. [Implement own action loop](actionloop)
 5. [Multiple files in main package](multifile)
 6. [Actionloop with subpackage](actionloop-multifile)
+7. [Actionloop and vendors without vendor folder](vendoring)
