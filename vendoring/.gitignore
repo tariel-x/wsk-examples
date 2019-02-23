@@ -1,3 +1,4 @@
-src/vendor/*
-src/src
 src/exec
+src/vendoring.zip
+src/src
+src/github.com

@@ -18,5 +18,5 @@ func make(name string) string {
 		name = "stranger"
 	}
 	fmt.Printf("name=%s\n", name)
-	return "This is the action with actionloop and subpackage, " + name + "!"
+	return "This is the action with vendors, " + name + "!"
 }
