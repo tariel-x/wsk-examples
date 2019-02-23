@@ -1,2 +1,8 @@
+github.com/rylans/getlang v0.0.0-20180713162438-bc10a4549029 h1:o9j/tT9JEyCLv7NPHhYBsj1Q1necahi0Y2WDY/iyVrw=
+github.com/rylans/getlang v0.0.0-20180713162438-bc10a4549029/go.mod h1:3vfmZI6aJd5Rb9W2TQ0Nmupl+qem21R05+hmCscI0Bk=
 github.com/tariel-x/wsk-examples/vendoring/handler v0.0.0-20190221224905-53b16506c19d h1:Z49dw3024q3oKWhmEds4ZezdHiJ8ywNENcUp4+Poq0g=
 github.com/tariel-x/wsk-examples/vendoring/handler v0.0.0-20190221224905-53b16506c19d/go.mod h1:yV564CHDLzygrYa8NRMi5uwAwAnyDaTYZfjM+bz67JE=
+github.com/tariel-x/wsk-examples/vendoring/handler v0.0.0-20190223163228-9d23610f50a2 h1:sdal/U7pg0wCV9ZE2Qyx60YroL8j5KKjJXDeSFSizKc=
+github.com/tariel-x/wsk-examples/vendoring/handler v0.0.0-20190223163228-9d23610f50a2/go.mod h1:NbC3nuA/c7kCrh18b5ksm2LfR4cqPXuQWEKsG2+8UZM=
+golang.org/x/text v0.3.0 h1:g61tztE5qeGQ89tm6NTjjM9VPIm088od1l6aSorWRWg=
+golang.org/x/text v0.3.0/go.mod h1:NqM8EUOU14njkJ3fqMW+pc6Ldnwhi/IjpwHt7yyuwOQ=
