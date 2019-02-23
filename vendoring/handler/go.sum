@@ -1,0 +1,4 @@
+github.com/rylans/getlang v0.0.0-20180713162438-bc10a4549029 h1:o9j/tT9JEyCLv7NPHhYBsj1Q1necahi0Y2WDY/iyVrw=
+github.com/rylans/getlang v0.0.0-20180713162438-bc10a4549029/go.mod h1:3vfmZI6aJd5Rb9W2TQ0Nmupl+qem21R05+hmCscI0Bk=
+golang.org/x/text v0.3.0 h1:g61tztE5qeGQ89tm6NTjjM9VPIm088od1l6aSorWRWg=
+golang.org/x/text v0.3.0/go.mod h1:NqM8EUOU14njkJ3fqMW+pc6Ldnwhi/IjpwHt7yyuwOQ=

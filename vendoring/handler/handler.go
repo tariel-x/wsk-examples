@@ -2,21 +2,19 @@ package handler
 
 import (
 	"fmt"
+	"github.com/rylans/getlang"
 )
 
 // Handle function for the action
 func Handle(obj map[string]interface{}) map[string]interface{} {
-	name := obj["name"].(string)
+	text := obj["text"].(string)
 	msg := map[string]interface{}{
-		"msg": make(name),
+		"msg": detect(text),
 	}
 	return msg
 }
 
-func make(name string) string {
-	if name == "" {
-		name = "stranger"
-	}
-	fmt.Printf("name=%s\n", name)
-	return "This is the action with vendors, " + name + "!"
+func detect(text string) string {
+	info := getlang.FromString(text)
+	return fmt.Sprintf("Language of %s is %s", text, info.LanguageName())
 }
